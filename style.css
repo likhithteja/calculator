@@ -127,7 +127,11 @@ a:hover{
       transform: scale(1.3);
     }
 
-    button{
+    .button:hover.equals{
+      transform: scale(0.9);        
+    }
+
+    .button{
           background-color: #222;
           color: white;  
           border-radius: 100%;
