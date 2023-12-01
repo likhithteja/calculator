@@ -10,6 +10,9 @@ Array.from(buttons).forEach((button) => {
       string = ""
       document.querySelector('input').value = string;
     }
+    else if (e.target.innerHTML == '<') { 
+      string = string.substring(0, string.length - 1);
+    }   
     else {
       console.log(e.target)
       string = string + e.target.innerHTML;
