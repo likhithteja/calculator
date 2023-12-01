@@ -12,6 +12,7 @@ Array.from(buttons).forEach((button) => {
     }
     else if (e.target.innerHTML == 'X') { 
       string = string.substring(0, string.length - 1);
+      document.querySelector('input').value = string;
     }   
     else {
       console.log(e.target)
