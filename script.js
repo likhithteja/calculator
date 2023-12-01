@@ -10,7 +10,7 @@ Array.from(buttons).forEach((button) => {
       string = ""
       document.querySelector('input').value = string;
     }
-    else if (e.target.innerHTML == '<') { 
+    else if (e.target.innerHTML == 'X') { 
       string = string.substring(0, string.length - 1);
     }   
     else {
